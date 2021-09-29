@@ -1,0 +1,6 @@
+---
+- name: installing apache on ubuntu system using ansible
+  hosts: all
+  become: true
+  roles:
+    - setup-apache
